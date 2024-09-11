@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forums</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                    <li class="nav-item"><a href="login.html" onclick="showLoginForm()">Login</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">All About Football</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Daily News">Daily News</option>
+                    <option value="Transfer Window News">Transfer Window News</option>
+                    <option value="Match Result News">Match Result News</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Daily News</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://www.aljazeera.com/wp-content/uploads/2023/06/31337707-1685948089.jpg?resize=1920%2C1440" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">End of an era: Zlatan Ibrahimović leaves professional football career — it’s
+                            over</a></h4>
+                    <p>Zlatan Ibrahimović has now decided to retire from professional football with immediate effect.
+                    </p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>36 Posts | 14 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Zlatan</a>
+                    <br>on <small>10 June 2023</small>
+                </div>
+            </div>
+        </div>
+        <hr class="subforum-devider">
+        <div class="subforum-row">
+            <div class="subforum-icon subforum-column center">
+                <img class="subforum-img"
+                    src="https://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2023/05/16123656/Two-Images-Haaland-with-Messi-in-cirlce-1.jpg"></img>
+            </div>
+            <div class="subforum-description subforum-column">
+                <h4><a href="#">Who will win the Ballon d’Or in 2023? Messi and Haaland in a two-horse race</a></h4>
+                <p>After a fallow Ballon d’Or year for Lionel Messi in 2022, he is out in front of the 2023 betting…for
+                    a trophy he won in 2023, but surely Haaland is the strongest candidate after winning a treble with Manchester City!</p>
+            </div>
+            <div class="subforum-stats subforum-column center">
+                <span>20 Posts | 8 Topics</span>
+            </div>
+            <div class="subforum-info subforum-column">
+                <b><a href="">Last post</a></b> by <a href="">Riman</a>
+                <br>on <small>11 June 2023</small>
+            </div>
+        </div>
+        <hr class="subforum-devider">
+        <div class="subforum-row">
+            <div class="subforum-icon subforum-column center">
+                <img class="subforum-img"
+                    src="https://akcdn.detik.net.id/visual/2023/06/18/fbl-euro-2024-qualifier-por-bih_169.jpeg?w=650&q=90"></img>
+            </div>
+            <div class="subforum-description subforum-column">
+                <h4><a href="#">Cristiano Ronaldo picked up in air by Portugal pitch invader in strange scenes vs Bosnia
+                </a></h4>
+                <p>Manchester City have opened concrete talks to explore conditions of Mateo Kovacic deal this
+                    summer!.</p>
+            </div>
+            <div class="subforum-stats subforum-column center">
+                <span>20 Posts | 8 Topics</span>
+            </div>
+            <div class="subforum-info subforum-column">
+                <b><a href="">Last post</a></b> by <a href="">Aqua</a>
+                <br>on <small>28 Mei 2023</small>
+            </div>
+        </div>
+        <hr class="subforum-devider">
+        <div class="subforum-row">
+            <div class="subforum-icon subforum-column center">
+                <img class="subforum-img"
+                    src="https://www.thisisanfield.com/wp-content/uploads/TrenttacticEDIT-600x400.jpg"></img>
+            </div>
+            <div class="subforum-description subforum-column">
+                <h4><a href="#">Playmaker role is perfect fit for Alexander-Arnold’s England revival</a></h4>
+                <p>As the debate over whether or not to move Trent Alexander-Arnold into midfield continues, there could be a tactical solution to satisfy all sides.</p>
+            </div>
+            <div class="subforum-stats subforum-column center">
+                <span>41 Posts | 16 Topics</span>
+            </div>
+            <div class="subforum-info subforum-column">
+                <b><a href="">Last post</a></b> by <a href="">Ivan</a>
+                <br>on <small>1 June 2023</small>
+            </div>
+        </div>
+        <!--More-->
+
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Transfer Window News</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://pict.sindonews.net/webp/480/pena/news/2023/06/09/11/1122151/lionel-messi-datang-tiket-inter-miami-ludes-terjual-dalam-hitungan-menit-eab.webp" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Lionel Messi has decided to join MLS side Inter Miami as free agent, done deal </a>
+                    </h4>
+                    <p>Messi will play in MLS next season — there are no more chances for Barcelona or Al Hilal at this
+                        stage.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>34 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Rama</a>
+                    <br>on <small>7 June 2023</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://i2-prod.football.london/incoming/article27078871.ece/ALTERNATES/s810/0_GettyImages-1245654813.jpg"></img>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">'A top team' - Chelsea star Mateo Kovacic breaks silence on Man City transfer
+                            links</a></h4>
+                    <p>Manchester City have opened concrete talks to explore conditions of Mateo Kovacic deal this
+                        summer!.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>20 Posts | 8 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Lotus</a>
+                    <br>on <small>28 May 2023</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://www.the-sun.com/wp-content/uploads/sites/6/2023/05/DD-COMP-BELINGHAM-v2.jpg?w=620" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Jude Bellingham transfer: Where will Borussia Dortmund and England midfielder fit in
+                            at Real Madrid?</a></h4>
+                    <p>Jude Bellingham is closing in on a move to Real Madrid after the Spanish side struck a deal with
+                        Borussia Dortmund worth an initial £88.5m.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>54 Posts | 21 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Jurgen</a>
+                    <br>on <small>12 June 2023</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd2f286803655ee98/6481ab31a5487f2465eb6493/GOAL_-_Blank_WEB_-_Facebook.jpg?auto=webp&format=pjpg&width=3840&quality=60" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Liverpool have 'signed' Alexis Mac Allister for stunning transfer fee, this
+                            could be the signing of the summer</a></h4>
+                    <p>Alexis Mac Allister can be considered new Liverpool player as he will complete medical tests
+                        today. Liverpool have triggered the clause for Alexis Mac Allister — it’s just £35m!. </p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>60 Posts | 17 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Jude</a>
+                    <br>on <small>8 June 2023</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://thumb.viva.co.id/media/frontend/thumbs3/2023/06/09/64829088d37c7-karim-benzema-diperkenalkan-ke-suporter-al-ittihad_665_374.jpg" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Karim Benzema has signed main part of documents to become new Al Ittihad playe</a>
+                    </h4>
+                    <p>Understand Benzema’s contract will be valid until Jine 2025 and will include option for further
+                        season. The package will be close to €200m per year with commercial deals/benefits included in
+                        this number.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>37 Posts | 13 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Ginola</a>
+                    <br>on <small>1 June 2023</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Match Result News</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-06/Rodri%20Man%20City%20Champioins%20League%20final%20061023.jpg.webp?itok=rIUdTQR2" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Man City vs Inter Milan score: Champions League final result as Rodri goal secures
+                            treble for Guardiola's team</a></h4>
+                    <p>Manchester City became the second English club to win the treble after beating Inter Milan. A
+                        second-half strike from Rodri was
+                        enough to seal a 1-0 win at Istanbul's Ataturk Olympic
+                        Stadium and bring a successful end to one of the great seasons in English football history.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>20 Posts | 8 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Lotus</a>
+                    <br>on <small>11 June 2023</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-06/Ilkay%20Gundogan%20Man%20City%20goal%20FA%20Cup%20final%20060323.jpg.webp?itok=3oZ4KUz0" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Man City vs Man United FA Cup final score</a></h4>
+                    <p>Manchester City captain Ilkay Gundogan made FA Cup history before keeping Pep Guardiola's side on
+                        track for the treble with a 2-1 win over Manchester United.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>103 Posts | 24 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Fajar</a>
+                    <br>on <small>3 June 2020</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-05/GettyImages-1488012458.jpg.webp?itok=twpJhuyh" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Real Madrid vs Osasuna score, result, highlights as Rodrygo leads Blancos to 2023
+                            Copa del Rey title</a></h4>
+                    <p>Real Madrid have sealed a Copa del Rey title for the first time since 2014 as they beat Osasuna
+                        2-1 in the 2023 final at the Estadio de La Cartuja.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>50 Posts | 13 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Rimani</a>
+                    <br>on <small>17 May 2023</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img class="subforum-img"
+                        src="https://static.independent.co.uk/2023/05/27/14/GettyImages-1493755222.jpg?quality=75&width=640&auto=webp" />
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Heartache for Borussia Dortmund as Mainz draw hands title to Bayern Munich</a></h4>
+                    <p>Dortmund would have claimed their first title since the 2011-12 season if they had beaten Mainz
+                        at home but drew 2-2, only levelling in the sixth minute of stoppage time, while Musiala’s late
+                        strike gave Bayern a 2-1 win at Cologne to take the honours on goal difference.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>30 Posts | 11 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Justin</a>
+                    <br>on <small>3 June 2023</small>
+                </div>
+            </div>
+
+
+        </div>
+        <!---->
+    </div>
+
+    <!-- Forum Info -->
+    <div class="forum-info">
+        <div class="chart">
+            All About Football - Stats &nbsp;<i class="fa fa-bar-chart"></i>
+        </div>
+        <span><u>5,369</u> Posts in <u>48</u> Topics by <u>8,124</u> Members.</span><br>
+        <span>Latest post: <b><a href="">Random post</a></b> on June 12 2023 By <a href="">Antony</a></span>.<br>
+        <span>Check <a href="">the latest posts</a> .</span><br>
+    </div>
+
+    <footer>
+        <span>&copy; Fajar Satria | All Rights Reserved</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
