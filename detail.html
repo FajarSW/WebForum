@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                    <li class="nav-item"><a href="login.html" onclick="showLoginForm()">Login</a></li>
+                </ul>
+            </nav>
+
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">All About Football</div>
+
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Daily News">Daily News</option>
+                    <option value="Transfer Window News">Transfer Window News</option>
+                    <option value="Match Result News">Match Result News</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <div class="container">
+            <!--Navigation-->
+            <div class="navigate">
+                <span><a href="forums.html">MyForum - Forums</a> >> <a href="#">Random Topic</a></span>
+            </div>
+
+            <!--Topic Section-->
+            <div class="topic-container">
+                <!--Original thread-->
+                <div class="head">
+                    <div class="authors">Author</div>
+                    <div class="content">Topic: random topic (Read 1325 Times)</div>
+                </div>
+
+                <div class="body">
+                    <div class="authors">
+                        <div class="username"><a href="">Anton</a></div>
+                        <div>Role</div>
+                        <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt209db9312ce8d1fe/6364c712a803a24d15c8884d/Mbappe_Haaland_.jpg" alt="">
+                        <div>Posts: <u>15</u></div>
+                        <div>Points: <u>153</u></div>
+                    </div>
+                    <div class="content">
+                        Is Haaland better than mbappe?
+                        <br>To see how it looks like.
+                        <br><br>
+                        Erling Haaland is undoubtedly the superior goalscorer, but Mbappe seems a more complete player
+                        at the moment. Transfermarkt calculates the value of the Frenchman to be a colossal £158m,
+                        making him the most valuable player on the planet at the moment..
+                        <br>
+                        <hr>
+                        Regards Anton
+                        <br>
+                        <div class="comment">
+                            <button onclick="showComment()">Comment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Comment Area-->
+            <div class="comment-area hide" id="comment-area">
+                <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+                <input type="submit" value="submit">
+            </div>
+
+            <!--Comments Section-->
+            <div class="comments-container">
+                <div class="body">
+                    <div class="authors">
+                        <div class="username"><a href="">Sujarno</a></div>
+                        <div>Role</div>
+                        <img src="https://images.sportsbrief.com/images/1120/1200e7ee5bf991ff.webp?v=1" alt="">
+                        <div>Posts: <u>45</u></div>
+                        <div>Points: <u>458</u></div>
+                    </div>
+                    <div class="content">
+                        Why Eden Hazard's Move to Real Madrid is the Club's Most Expensive Mistake
+                        <br>To see how it looks like.
+                        <br><br>
+                        Since joining Real Madrid from Chelsea in the summer of 2019 for a reported fee of around €100
+                        million, Hazard has failed to live up to expectations. He has struggled with injuries, missing a
+                        significant number of games, and has not been able to consistently contribute to the team's
+                        success on the pitch. In his first two seasons at Real Madrid, he scored just 5 goals in 43
+                        appearances, far below what was expected of him.
+                        <br>
+                        <br>
+                        <div class="comment">
+                            <button onclick="showReply()">Reply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Reply Area-->
+            <div class="comment-area hide" id="reply-area">
+                <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+                <input type="submit" value="submit">
+            </div>
+
+
+            <!--Another Comment With replies-->
+            <div class="comments-container">
+                <div class="body">
+                    <div class="authors">
+                        <div class="username"><a href="">Penaldo</a></div>
+                        <div>Role</div>
+                        <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2022/12/19/thumbs/800x531/247181.jpg?v=1671435583"
+                            alt="">
+                        <div>Posts: <u>455</u></div>
+                        <div>Points: <u>4586</u></div>
+                    </div>
+                    <div class="content">
+                        Is Lionel Messi's G.O.A.T status officially sealed?
+                        <br>To see how it looks like.
+                        <br><br>
+                        As soon as Messi lifted the World Cup in Qatar just before Christmas, the argument was finished
+                        in the eyes of many football fans. It had been fun while it lasted, but Messi was officially the
+                        GOAT.
+                        <br>
+                        <br>
+                        <div class="comment">
+                            <button onclick="showReply()">Reply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Reply Area-->
+            <div class="comment-area hide" id="reply-area">
+                <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+                <input type="submit" value="submit">
+            </div>
+
+
+
+        </div>
+        <footer>
+            <span>&copy; Fajar Satria | All Rights Reserved</span>
+        </footer>
+        <script src="main.js"></script>
+</body>
+
+</html>
